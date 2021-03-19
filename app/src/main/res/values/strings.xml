@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Alarm Location</string>
+
+    //names of the first screen
+    <string name="alarm_text">Alarm</string>
+    <string name="location_text">Location</string>
+    <string name="help_button">?</string>
+
+    //address screen
+    <string name="tittle_address">Address to be Alarmed</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="search_location">Search Location</string>
+    <integer name="max_results">5</integer>
+
+    //helpscreen
+    <string name="help_text"><br>Click in the Bell icon in the Main Screen.\n\nType your address and press OK.\n\nYour location will be marked on the map.\n\nWhen you are close The Application will Alarm you!!!</br></string>
+
+    //cancelscreen
+    <string name="cancel_text">Alarm CANCEL.\n\nThank you for used the Application\n\n<font color="#F41724">Alarm</font> <font color="#FFD700">Location</font>.\n\nHave a nice Day and see you soon!!!</string>
+    <string name="title_activity_maps">Map</string>
+
+    //screen size
+    <dimen name="height" tools:ignore="PxUsage">1920px</dimen>
+    <dimen name="width" tools:ignore="PxUsage">1080px</dimen>
+
+    //logo size
+    <dimen name="half_size" tools:ignore="PxUsage">640px</dimen>
+    <dimen name="size" tools:ignore="PxUsage">260px</dimen>
+    <dimen name="size_small" tools:ignore="PxUsage">64px</dimen>
+
+    //maps key api
+    <string name="maps_key" tools:ignore="TypographyDashes">AIzaSyAun1ZnOhtB61maSyUbqI4WYlSqp6-7rN0</string>
+
+    //tags
+    <string name="main_screen">Main Screen</string>
+    <string name="address_screen">Address Screen</string>
+    <string name="cancel_screen">Cancel Screen</string>
+    <string name="help_screen">Help Screen</string>
+    <string name="maps_screen">Maps Screen</string>
+    <string name="alarm_screen">Alarm Screen</string>
+    <string name="exception">Exception: %</string>
+    <string name="places">Places found</string>
+    <string name="position_tittle">Destination to be Alarmed</string>
+    <string name="call_oncreate">Calling the onCreate method</string>
+    <string name="call_onresume">Calling the onResume method</string>
+    <string name="call_onback">Calling the onBack method</string>
+    <string name="call_onmapready">Calling the onMapReady method</string>
+    <string name="call_show_gif">Calling the showGif method</string>
+    <string name="call_main_screen">Calling the callMainScreen method</string>
+    <string name="call_address_screen">Calling the callAddressScreen method</string>
+    <string name="call_cancel_screen">Calling the callCancelScreen method</string>
+    <string name="call_help_screen">Calling the callHelpScreen method</string>
+    <string name="call_maps_screen">Calling the callMapsScreen method</string>
+    <string name="call_alarm_screen">Calling the callAlarmScreen method</string>
+    <string name="call_isUserReachRadius">Calling the isUserReachRadius method</string>
+    <string name="call_getPermissionsForUpdate">Calling the getPermissionsForUpdate method</string>
+    <string name="call_createLocationRequest">Calling the createLocationRequest method</string>
+    <string name="call_onActivityResult">Calling the onActivityResult method</string>
+    <string name="call_updateLocationUI">Calling the updateLocationUI method</string>
+    <string name="call_cancelUserLocationUpdate">Calling the cancelUserLocationUpdate method</string>
+    <string name="address_not_found">Address not found.\nPlease type a valid address.</string>
+    <string name="blank_address">Empty Address.\nPlease type a valid address.</string>
+
+
+    //distance value
+    <string name="distance">100</string>
+    <string name="closed_to_destination">You are closed to your destination.\n\nYour distance is: %1$s meters</string>
+
+    //content Description
+    <string name="icon">Icon Bell Image</string>
+    <string name="float_button">Cancel Button</string>
+
+</resources>

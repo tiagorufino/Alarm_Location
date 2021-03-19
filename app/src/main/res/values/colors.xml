@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // Color of the app
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_input">#F0E5E1</color>
+    <color name="white_notice_board">#F6F0ED</color>
+    <color name="blue_main_screen">#566DB1</color>
+    <color name="blue_transparent">#55566DB1</color>
+    <color name="blue_selection_screen">#a4b5e7</color>
+    <color name="blue_ok_button">#3B33E4</color>
+    <color name="blue_type_screen">#CBD2E5</color>
+    <color name="red_icon_alarm">#F41724</color>
+    <color name="red_cancel_button">#D64B54</color>
+    <color name="yellow_icon_location">#FFD700</color>
+</resources>

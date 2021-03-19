@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map_opac_cut_blue"
+    tools:context=".screen.CancelActivity">
+
+    <ImageView
+        android:id="@+id/icon_bell_cancel"
+        android:layout_width="@dimen/size"
+        android:layout_height="@dimen/size"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/ic_peq"
+        android:contentDescription="@string/icon" />
+
+    <TextView
+        android:id="@+id/cancel_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_view_style"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/roboto_black"
+        android:inputType="textMultiLine"
+        android:textSize="30sp"
+        android:paddingBottom="24dp"
+        android:paddingTop="14dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:text="@string/cancel_text"
+        android:layout_below="@id/icon_bell_cancel"
+        android:textColor="@color/black"
+        tools:ignore="TextViewEdits" />
+
+    <View
+        android:id="@+id/divider_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/cancel_text"
+        android:background="@null" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/ok_button_cancel_screen"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider_cancel"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ok_button"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:background="@drawable/ok_button_style"
+        android:onClick="callMainScreen"/>
+
+</RelativeLayout>
